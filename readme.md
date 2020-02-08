@@ -10,3 +10,9 @@
 - git push origin master
 - git pull origin
 
+
+- git branch nombre
+- git branch
+- git checkout nombre
+- git checkout -b otroarchivo
+- git remote show origin
