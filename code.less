@@ -1,0 +1,24 @@
+@color:green;
+@border-r:5px;
+@alto:50px;
+@ancho:800px;
+@fondo:yellow;
+@pie-color:green;
+
+/*MIXIN*/
+.format-bg (@color, @border-r,@alto, @ancho){
+    background-color: @color;
+    height: @alto;
+    width: @ancho;
+    border-radius: @border-r;
+}
+
+header{
+    .format-bg(@color, @border-r, @alto, @ancho)
+}
+body{
+    background-color: @fondo;
+}
+footer{
+    .format-bg(@color, @border-r, 70px,  @ancho)
+}

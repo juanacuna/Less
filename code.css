@@ -1,0 +1,16 @@
+/*MIXIN*/
+header {
+  background-color: green;
+  height: 50px;
+  width: 800px;
+  border-radius: 5px;
+}
+body {
+  background-color: yellow;
+}
+footer {
+  background-color: green;
+  height: 70px;
+  width: 800px;
+  border-radius: 5px;
+}
